@@ -87,3 +87,18 @@ switch(filme.genero) {
     console.log(`[switch 01F - default] O filme ${filme.titulo} não tem gênero definido`)
     break
 }
+
+// Usando o SWITCH com comparação + parâmetro principal como true
+switch(true) {
+  case (filme.duracao < 60):
+    console.log(`[switch 02A] O filme ${filme.titulo} tem menos de uma hora`)
+    break
+  case (filme.duracao < 120):
+    console.log(`[switch 02B] O filme ${filme.titulo} tem menos de duas horas`)
+    break
+  case (filme.duracao < 180):
+    console.log(`[switch 02C] O filme ${filme.titulo} tem menos de três horas`)
+    break
+  default:
+    console.log(`[switch 02D - default] O filme ${filme.titulo} tem três horas ou mais`)
+}
