@@ -10,9 +10,9 @@ Os objetivos desse repositório são:
 
 - Revisar git e gitflow
 
-- Revisar funções
-
 - Revisar condicionais
+
+- Revisar funções
 
 ### Tabela de Conteúdo
 
