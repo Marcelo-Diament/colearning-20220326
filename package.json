@@ -1,0 +1,23 @@
+{
+  "name": "colearning-20220326",
+  "version": "1.0.0",
+  "description": "_Repositório utilizado no colearning de 26/03/2022_",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelo-Diament/colearning-20220326.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelo-Diament/colearning-20220326/issues"
+  },
+  "homepage": "https://github.com/Marcelo-Diament/colearning-20220326#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
