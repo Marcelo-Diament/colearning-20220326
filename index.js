@@ -68,3 +68,22 @@ if(filme.indicadoParaMaiores) {
 } else {
   console.log(`[if 11 ELSE] O filme ${filme.titulo} é indicado para todas as idades e seu título não é Titanic`)
 }
+
+// Condicional com SWITCH
+// Basicamente olhamos para um valor e criamos diferentes casos para ele.
+switch(filme.genero) {
+  case "Drama":
+    console.log(`[switch 01A] O filme ${filme.titulo} é um drama`)
+    break
+  case "Aventura":
+  case "Policial":
+  case "Ação":
+    console.log(`[switch 01B - 01D] O filme ${filme.titulo} é de ação`)
+    break
+  case "Animação":
+    console.log(`[switch 01E] O filme ${filme.titulo} é uma animação`)
+    break
+  default:
+    console.log(`[switch 01F - default] O filme ${filme.titulo} não tem gênero definido`)
+    break
+}
