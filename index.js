@@ -38,3 +38,8 @@ if(!filme.indicadoParaMaiores && filme.avaliacao > 5) {
 if(filme.indicadoParaMaiores || filme.avaliacao > 5) {
   console.log(`[if 06] O filme ${filme.titulo} é indicado para todas as idades e está acima da média`)
 }
+
+// Usando duas condições obrigatórias no if, sendo que a segunda consiste em duas condições com um OR
+if(!filme.indicadoParaMaiores && (filme.avaliacao > 5 || filme.ano === 1990)) {
+  console.log(`[if 07] O filme ${filme.titulo} é indicado para todas as idades e está acima da média`)
+}
