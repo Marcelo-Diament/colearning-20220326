@@ -24,3 +24,7 @@ if(!filme.indicadoParaMaiores) {
 // Basicamente o `&&` agem como se fosse um if - executam o que vem a seguir se a condição anterior for verdadeira
 !filme.indicadoParaMaiores
   && console.log(`[if 03] O filme ${filme.titulo} é indicado para todas as idades`)
+
+  // Mesmo short circuit, porém estamos passando o nome do filme errado (filme.title). Se não houver o title (null, undefined...) ele lê uma segunda opção (filme.titulo)
+!filme.indicadoParaMaiores
+  && console.log(`[if 04] O filme ${filme.title || filme.titulo} é indicado para todas as idades`)
