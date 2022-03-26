@@ -19,3 +19,8 @@ if(filme.indicadoParaMaiores === false) {
 if(!filme.indicadoParaMaiores) {
   console.log(`[if 02] O filme ${filme.titulo} é indicado para todas as idades`)
 }
+
+// Mesmo IF mas usando o short circuit (curto circuito)
+// Basicamente o `&&` agem como se fosse um if - executam o que vem a seguir se a condição anterior for verdadeira
+!filme.indicadoParaMaiores
+  && console.log(`[if 03] O filme ${filme.titulo} é indicado para todas as idades`)
