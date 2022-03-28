@@ -12,8 +12,6 @@ Os objetivos desse repositório são:
 
 - Revisar condicionais
 
-- Revisar funções
-
 ### Tabela de Conteúdo
 
 | Tema         | Descrição                                   |
@@ -21,7 +19,6 @@ Os objetivos desse repositório são:
 | git          | Comandos básicos                            |
 | gitFlow      | Fluxo básico                                |
 | Condicionais | Ifs e switch                                |
-| Funções      | Padrão, anônima, arrow function e callbacks |
 
 ## Pré Requisitos
 
